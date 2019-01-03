@@ -19,10 +19,12 @@
   } 
   .container {
     font-size: 40px;
+    min-height: 300px;
     width: 100%;
     background: LightGray;
     display:grid; /*contenedor*/
     grid-template-columns: 1fr 100px 2fr; /*n, columnas y ancho de cada columna*/
+    grid-column-gap:20px;
     grid-template-rows:50px 50px; /*customizas el número de filas y su ancho*/
 }
 
