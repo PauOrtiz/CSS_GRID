@@ -19,6 +19,7 @@
     width: 100%;
     background: LightGray;
     display:grid; /*contenedor*/
+    grid-template-columns: 100px 100px 100px; /*n, columnas y ancho de cada columna*/
   }
 
  
