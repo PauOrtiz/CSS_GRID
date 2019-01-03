@@ -14,13 +14,16 @@
   .d5{
     background:PaleGreen;
   } 
+  .d6{
+    background:Yellow;
+  } 
   .container {
     font-size: 40px;
     width: 100%;
     background: LightGray;
     display:grid; /*contenedor*/
-    grid-template-columns: 100px 100px 100px; /*n, columnas y ancho de cada columna*/
-    grid-template-rows:50px 50px; /*customizas el número de filas*/
+    grid-template-columns: 1fr 100px 2fr; /*n, columnas y ancho de cada columna*/
+    grid-template-rows:50px 50px; /*customizas el número de filas y su ancho*/
 }
 
  
