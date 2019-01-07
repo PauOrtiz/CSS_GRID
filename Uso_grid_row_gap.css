@@ -1,0 +1,19 @@
+<style>
+  .d1{background:LightSkyBlue;}
+  .d2{background:LightSalmon;}
+  .d3{background:PaleTurquoise;}
+  .d4{background:LightPink;}
+  .d5{background:PaleGreen;}
+  
+  .container {
+    font-size: 40px;
+    min-height: 300px;
+    width: 100%;
+    background: black;
+    display: grid;
+    grid-template-columns: 5fr 10fr 11fr;
+    grid-column-gap:12px;
+    grid-template-rows: 6fr 1fr 5fr;
+    grid-row-gap:35px;
+  }
+</style>
